@@ -34,7 +34,7 @@ body {
   margin: 0 auto 0;
 }
 
-.list__task {
+.task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -113,13 +113,13 @@ input#wrapper__top__new-task {
 
 /* Task list */
 .list {
-    list-style:none;
-    overflow: hidden;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  list-style:none;
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 li > * {
@@ -141,13 +141,13 @@ li >    input[type="text"] {
   width: 226px;
 }
 
-.butt.list__delete img {
+.butt.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.butt.list__delete img:hover {
+.butt.delete img:hover {
   transform: rotateZ(0);
 }
 
