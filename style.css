@@ -50,14 +50,14 @@ ul {
 }
 
 h3 {
-  list-style:none;
+  list-style: none;
 }
 input{
-  outline:none;
+  outline: none;
 }
 
 .butt {
-  outline:none;
+  outline: none;
   background: none;
   border: 0px;
   color: #888;
@@ -113,7 +113,7 @@ input#wrapper__top__new-task {
 
 /* Task list */
 .list {
-  list-style:none;
+  list-style: none;
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -159,14 +159,14 @@ ul#completed-tasks label {
 
 /* Edit Task */
 ul li input[type=text] {
-  display:none
+  display: none;
 }
 
 ul li.edit-mode input[type=text] {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 ul li.edit-mode label {
-  display:none;
+  display: none;
 }
